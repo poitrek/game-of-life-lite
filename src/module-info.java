@@ -1,2 +1,0 @@
-module pb.boomer.gameoflife {
-}

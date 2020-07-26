@@ -1,8 +1,6 @@
 package pb.boomer.gameoflife;
 import java.io.IOException;
-import java.util.Scanner;
-import javafx.geometry.*;
-import javafx.beans.property.*;
+import javafx.application.*;
 
 
 public class GameOfLife {

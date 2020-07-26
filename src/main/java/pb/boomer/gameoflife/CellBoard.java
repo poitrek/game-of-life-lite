@@ -26,7 +26,8 @@ public class CellBoard {
 //				arr.add(new SingleCell());
 //			}
 //			cells.add(arr);
-//		}		
+//		}
+		
 		// Set cells' neighboors
 		for (int i = 1; i < this.height - 1; i ++)
 			for (int j = 1; j < this.width - 1; j++) {
@@ -37,7 +38,7 @@ public class CellBoard {
 				cells[i][j].addNeighboor(cells[i][j+1]);
 				cells[i][j].addNeighboor(cells[i+1][j-1]);
 				cells[i][j].addNeighboor(cells[i+1][j]);
-				cells[i][j].addNeighboor(cells[i+1][j+1]);				
+				cells[i][j].addNeighboor(cells[i+1][j+1]);
 			}
 	}
 	

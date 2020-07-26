@@ -28,9 +28,10 @@ public class SingleCell {
 	}
 	
 	/**
+	 * Rules:
+	 * 
 	 * curState  neighboors  newState
-	 * alive	 0-1	  -> dead
-	 * alive     4-8	  -> dead
+	 * alive	 0-1, 4-8 -> dead
 	 * alive 	 2-3	  -> alive
 	 * dead		 3		  -> alive
 	 * dead		 =/= 3    -> dead
